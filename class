@@ -1,0 +1,29 @@
+choice = int(input("Enter Choice (1/2/3/4): ")) 
+
+class fah: 
+    def __init__(self, temp): 
+        self.temp = temp_2
+        self.cel1 = self.cel_conv()
+        self.kel1 = self.kel_conv()
+        self.ran1 = self.ran_conv()
+        
+    class cel_conv:
+        def conv(self):
+            self.ans_4 = float((temp - 32) * 5/9)
+            print("cel = ",self.ans_4)
+                
+    class kel_conv:
+        def conv(self):
+            self.ans_5 = float((temp - 32) * 5/9 + 273.15) 
+            print("kel = ",self.ans_5)
+        
+    class ran_conv:
+        def conv(self):
+            self.ans_6 = float(temp + 459.67)
+            print("ran = ",self.ans_6)
+            
+
+if choice == 2: 
+    temp_2 = float(input("Enter Fahrenheit: ")) 
+    b = fah(temp_2)
+   
